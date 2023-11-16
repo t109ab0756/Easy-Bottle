@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Anton", sans-serif;
+  font-family: "Libre Baskerville", serif;
+  font-family: "Noto Sans TC", sans-serif;
+}
+
+header {
+  box-shadow: 0px 5px 5px #9e9c9c;
+  position: sticky;
+  background-color: #e8ecef;
+  top: 0;
+  z-index: 5;
+  padding: 1.25rem;
+  flex-wrap: wrap;
+  align-items: center;
+  display: flex;
+  div.logo {
+    margin-left: 2rem;
+    display: flex;
+    align-items: center;
+    flex: 1 1 200px;
+    img {
+      width: 6vw;
+      height: 5vw;
+    }
+    h1 {
+      font-size: 3rem;
+    }
+  }
+  nav {
+    flex: 2 1 400px;
+    ul {
+      justify-content: space-around;
+      display: flex;
+      list-style-type: none;
+      li {
+        a {
+          color: #09777d;
+          text-decoration: none;
+          font-size: 1.5rem;
+        }
+      }
+    }
+  }
+}
+header nav ul li a:hover {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+main {
+  section.allt {
+    padding: 13rem 0rem;
+    background-image: url(../pictures/victor-freitas-WvDYdXDzkhs-unsplash.jpg);
+    background-size: cover; //讓背景圖片在螢幕上，盡可能縮放到剛好大小
+    background-blend-mode: multiply; //// 設置背景混和模式為相乘模式 (有這才能設定透明度)
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.7);
+    div.title {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      h2 {
+        font-size: 5rem;
+        color: white;
+        margin-left: 15rem;
+        letter-spacing: 0.5rem;
+        text-align: center;
+      }
+    }
+  }
+
+  section.advantage {
+    background-image: url("../pictures/thomas-vimare-IZ01rjX0XQA-unsplash.jpg");
+    background-size: cover;
+    padding: 10rem 0rem;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    flex-wrap: wrap;
+    div.advantage1 {
+      width: 300px;
+      height: 270px;
+      background-color: #f6ebe4;
+      border: 1px solid black;
+      h2 {
+        font-size: 3rem;
+        line-height: 10rem;
+      }
+      p {
+        font-size: 1.5rem;
+      }
+    }
+  }
+}
+
+footer {
+  width: 100%;
+  background-color: #e8ecef;
+  display: flex;
+  flex-wrap: wrap;
+  div.contract {
+    display: flex;
+    flex-direction: column;
+    padding-left: 4rem;
+    width: 60%;
+    h3 {
+      padding-top: 1.5rem;
+      font-size: 2.5rem;
+    }
+    span {
+      font-size: 1.5rem;
+      line-height: 3rem;
+    }
+  }
+  div.map {
+    margin-top: 2.5rem;
+    padding-left: 6rem;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  main {
+    section.allt {
+      display: flex;
+      background-size: auto;
+      justify-content: center;
+      align-items: center;
+      div.title {
+        h2 {
+          width: 100%;
+          font-size: 3rem;
+          margin-left: 4rem;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 780px) {
+  main {
+    section.allt {
+      display: flex;
+      background-size: auto;
+      justify-content: center;
+      align-items: center;
+      div.title {
+        h2 {
+          font-size: 2.5rem;
+          margin-left: 1rem;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 570px) {
+  header nav ul li a {
+    font-size: 1rem;
+  }
+  main {
+    section.allt {
+      display: flex;
+      background-size: auto;
+      justify-content: center;
+      align-items: center;
+      div.title {
+        h2 {
+          font-size: 1.5rem;
+          margin-left: 1rem;
+        }
+      }
+    }
+  }
+}

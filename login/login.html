@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>繭單拉 Easy Bottle</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Libre+Baskerville&family=Noto+Sans+TC&display=swap"
+      rel="stylesheet"
+    />
+    <!-- goole fonts -->
+    <link rel="stylesheet" href="login.css" />
+  </head>
+  <body>
+    <div class="form">
+      <h1>繭單拉 Easy Bottle</h1>
+
+      <br />
+
+      <div class="username">
+        <label class="userlabel" data-content="Username">
+          <span class="hidden"> 帳號</span></label
+        >
+        <input
+          class="usernameinput"
+          name="username"
+          type="text"
+          placeholder="請輸入帳號"
+        />
+      </div>
+
+      <div class="password">
+        <label class="passwordlabel"><span class="hidden">密碼</span> </label>
+        <input
+          type="password"
+          class="passwordinput"
+          name="password"
+          type="password"
+          placeholder="請輸入密碼"
+        />
+      </div>
+
+      <button type="submit" class="button">登入</button>
+    </div>
+
+    <button class="gohome" onclick="gohome()">go home</button>
+    <script src="login.js"></script>
+  </body>
+</html>

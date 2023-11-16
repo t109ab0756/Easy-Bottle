@@ -1,0 +1,117 @@
+div.animation {
+  width: 100%;
+  height: 100vh;
+  background-image: url("./pictures/0411-04_edited.jpg");
+  background-size: cover;
+  background-position: fixed;
+  text-align: center;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+div.animation div.logo {
+  padding-left: 3rem;
+}
+
+#first {
+  stroke-dasharray: 1355px;
+  stroke-dashoffset: 1355px;
+  animation: fadeInside 0.6s ease-in forwards;
+}
+
+#second {
+  stroke-dasharray: 1202px;
+  stroke-dashoffset: 1202px;
+  animation: fadeInside 0.6s ease-in forwards 0.3s;
+}
+
+#third {
+  stroke-dasharray: 1077px;
+  stroke-dashoffset: 1077px;
+  animation: fadeInside 0.6s ease-in forwards 0.6s;
+}
+
+#four {
+  stroke-dasharray: 483px;
+  stroke-dashoffset: 483px;
+  animation: fadeInside 0.6s ease-in forwards 0.4s;
+}
+
+#five {
+  stroke-dasharray: 404px;
+  stroke-dashoffset: 404px;
+  animation: fadeInside 0.6s ease-in forwards 0.8s;
+}
+
+#six {
+  stroke-dasharray: 371px;
+  stroke-dashoffset: 371px;
+  animation: fadeInside 0.6s ease-in forwards 1.2s;
+}
+
+#seven {
+  stroke-dasharray: 383px;
+  stroke-dashoffset: 383px;
+  animation: fadeInside 0.6s ease-in forwards 1.6s;
+}
+
+#eight {
+  stroke-dasharray: 532px;
+  stroke-dashoffset: 532px;
+  animation: fadeInside 0.6s ease-in forwards 2s;
+}
+
+#nine {
+  stroke-dasharray: 360px;
+  stroke-dashoffset: 360px;
+  animation: fadeInside 0.6s ease-in forwards 2.4s;
+}
+
+#ten {
+  stroke-dasharray: 280px;
+  stroke-dashoffset: 280px;
+  animation: fadeInside 0.6s ease-in forwards 2.8s;
+}
+
+#eleven {
+  stroke-dasharray: 280px;
+  stroke-dashoffset: 280px;
+  animation: fadeInside 0.6s ease-in forwards 3.2s;
+}
+
+#twelve {
+  stroke-dasharray: 223px;
+  stroke-dashoffset: 223px;
+  animation: fadeInside 0.6s ease-in forwards 3.6s;
+}
+
+#thirteen {
+  stroke-dasharray: 413px;
+  stroke-dashoffset: 413px;
+  animation: fadeInside 0.6s ease-in forwards 4s;
+}
+
+svg {
+  animation: fill 0.5s ease forwards 4.3s;
+}
+
+@keyframes fadeInside {
+  to {
+    stroke-dashoffset: 0px;
+  }
+}
+@keyframes fill {
+  from {
+    fill: transparent;
+  }
+  to {
+    fill: rgb(255, 255, 255);
+  }
+}
+@media screen and (max-width: 768px) {
+  div.animation {
+    display: none;
+  }
+}/*# sourceMappingURL=animation.css.map */
