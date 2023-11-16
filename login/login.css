@@ -4,8 +4,13 @@ body {
 }
 
 div.form {
-  background-color: white;
-  box-shadow: 0 0 20px 15px gray;
+  background-image: url("../pictures/lucas-favre-JnoNcfFwrNA-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.7);
+  background-blend-mode: multiply;
+  color: white;
+  box-shadow: 0 0 15px 20px rgb(137, 137, 137);
   width: 500px;
   height: 400px;
   margin-top: 150px;
@@ -53,11 +58,13 @@ div.form button.button {
   height: 50px;
   cursor: pointer;
   border-radius: 1rem;
+  font-weight: 700;
 }
 div.form button.button:hover {
   font-size: 2rem;
-  background-color: black;
+  background-color: gray;
   color: white;
+  border: 1px solid rgb(244, 242, 242);
 }
 
 button.gohome {
@@ -81,25 +88,30 @@ button.gohome:hover {
 
 @media screen and (max-width: 1100px) {
   body {
-    background-image: none;
-    background-color: blanchedalmond;
+    background-image: url("../pictures/lucas-favre-JnoNcfFwrNA-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: multiply;
+    min-height: 100vh;
+  }
+  div.form {
+    box-shadow: 0 0 10px 5px rgb(255, 255, 255);
+    background-image: url("../pictures/new.png");
+    background-color: white;
+    color: black;
   }
 }
 @media screen and (max-width: 720px) {
-  body {
-    background-image: none;
-    background-color: blanchedalmond;
-  }
   div.form {
     width: 400px;
     height: 400px;
   }
+  button.gohome {
+    margin-left: 420px;
+  }
 }
 @media screen and (max-width: 600px) {
-  body {
-    background-image: none;
-    background-color: blanchedalmond;
-  }
   div.form {
     width: 300px;
     height: 400px;
@@ -136,9 +148,15 @@ button.gohome:hover {
     margin-top: 30px;
     width: 200px;
   }
+  button.gohome {
+    margin-left: 300px;
+  }
 }
 @media screen and (max-width: 450px) {
   div.form {
     margin-left: 25px;
+  }
+  button.gohome {
+    margin-left: 240px;
   }
 }/*# sourceMappingURL=login.css.map */
