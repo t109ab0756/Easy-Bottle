@@ -25,9 +25,14 @@ header {
     img {
       width: 6vw;
       height: 5vw;
+      cursor: pointer;
     }
     h1 {
       font-size: 3rem;
+      cursor: pointer;
+    }
+    h1:hover {
+      color: #09777d;
     }
   }
   nav {
@@ -49,6 +54,7 @@ header {
 header nav ul li a:hover {
   font-size: 1.6rem;
   font-weight: bold;
+  color: #09777d;
 }
 
 main {
