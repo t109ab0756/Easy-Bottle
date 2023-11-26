@@ -36,65 +36,65 @@ div.animation {
 #four {
   stroke-dasharray: 483px;
   stroke-dashoffset: 483px;
-  animation: fadeInside 0.6s ease-in forwards 0.4s;
+  animation: fadeInside 0.6s ease-in forwards ;
 }
 
 #five {
   stroke-dasharray: 404px;
   stroke-dashoffset: 404px;
-  animation: fadeInside 0.6s ease-in forwards 0.8s;
+  animation: fadeInside 0.6s ease-in forwards 0.2s;
 }
 
 #six {
   stroke-dasharray: 371px;
   stroke-dashoffset: 371px;
-  animation: fadeInside 0.6s ease-in forwards 1.2s;
+  animation: fadeInside 0.6s ease-in forwards 0.4s;
 }
 
 #seven {
   stroke-dasharray: 383px;
   stroke-dashoffset: 383px;
-  animation: fadeInside 0.6s ease-in forwards 1.6s;
+  animation: fadeInside 0.6s ease-in forwards 0.6s;
 }
 
 #eight {
   stroke-dasharray: 532px;
   stroke-dashoffset: 532px;
-  animation: fadeInside 0.6s ease-in forwards 2s;
+  animation: fadeInside 0.6s ease-in forwards 0.8s;
 }
 
 #nine {
   stroke-dasharray: 360px;
   stroke-dashoffset: 360px;
-  animation: fadeInside 0.6s ease-in forwards 2.4s;
+  animation: fadeInside 0.6s ease-in forwards 1s;
 }
 
 #ten {
   stroke-dasharray: 280px;
   stroke-dashoffset: 280px;
-  animation: fadeInside 0.6s ease-in forwards 2.8s;
+  animation: fadeInside 0.6s ease-in forwards 1.2s;
 }
 
 #eleven {
   stroke-dasharray: 280px;
   stroke-dashoffset: 280px;
-  animation: fadeInside 0.6s ease-in forwards 3.2s;
+  animation: fadeInside 0.6s ease-in forwards 1.4s;
 }
 
 #twelve {
   stroke-dasharray: 223px;
   stroke-dashoffset: 223px;
-  animation: fadeInside 0.6s ease-in forwards 3.6s;
+  animation: fadeInside 0.6s ease-in forwards 1.6s;
 }
 
 #thirteen {
   stroke-dasharray: 413px;
   stroke-dashoffset: 413px;
-  animation: fadeInside 0.6s ease-in forwards 4s;
+  animation: fadeInside 0.6s ease-in forwards 1.8s;
 }
 
 svg {
-  animation: fill 0.5s ease forwards 4.3s;
+  animation: fill 0.5s ease forwards 2.2s;
 }
 
 @keyframes fadeInside {
